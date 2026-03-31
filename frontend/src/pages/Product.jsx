@@ -13,7 +13,7 @@ const Product = () => {
 
 
     const fetchProductData = async () => {
-
+    
         products.map((item) => {
             if (item._id === productId) {
                 setProductData(item)
@@ -73,6 +73,7 @@ const Product = () => {
                     </div>
 
                   </div>
+                  <button className="bg-black text-white px-8 py-3 text-sm active:bg-gray-700">ADD TO CART</button>
                </div>
         </div>
         </div>
