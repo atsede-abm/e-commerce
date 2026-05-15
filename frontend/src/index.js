@@ -8,11 +8,11 @@ import ShopContextProvider from './context/ShopContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <ShopContextProvider>
   <BrowserRouter>
-    <App />
-  </BrowserRouter>
-  </ShopContextProvider>
+  <ShopContextProvider>
+      <App />
+   </ShopContextProvider>
+   </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
